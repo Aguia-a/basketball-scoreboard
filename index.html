@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contador de Pontos</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    
+    <body>
+        <div class="container">
+            <!--HOME SCORE PANEL-->
+            <div class="score-panel">
+                <div class="score-title">
+                    <span class="score-title-text">HOME</span>
+                </div>
+                <div class="counter">
+                    <span class="counter-title" id="counter-el-home"></span>
+                </div>
+                
+                <!--Home Add Buttons-->
+                <div class="functions">
+                    <button class="function-btn" onclick="add1Home()">
+                        <span class="function-btn-text">+1</span>
+                    </button>
+                    
+                    <button class="function-btn" onclick="add2Home()">
+                        <span class="function-btn-text">+2</span>
+                    </button>
+                    
+                    <button class="function-btn" onclick="add3Home()">
+                        <span class="function-btn-text">+3</span>
+                    </button>
+                </div>
+                
+                <!--Home Del Buttons-->
+                <div class="functions">
+                    <button class="function-btn" onclick="del1Home()">
+                        <span class="function-btn-text">-1</span>
+                    </button>
+                    
+                    <button class="function-btn" onclick="del2Home()">
+                        <span class="function-btn-text">-2</span>
+                    </button>
+                    
+                    <button class="function-btn" onclick="del3Home()">
+                        <span class="function-btn-text">-3</span>
+                    </button>
+                </div>
+            </div>
+            
+            <!--GUEST SCORE PANEL-->
+            <div class="score-panel">
+                <div class="score-title">
+                    <span class="score-title-text">GUEST</span>
+                </div>
+                <div class="counter">
+                    <span class="counter-title" id="counter-el-guest"></span>
+                </div>
+                
+                <!--Guest Add Buttons-->
+                <div class="functions">
+                    <button class="function-btn" onclick="add1Guest()">
+                        <span class="function-btn-text">+1</span>
+                    </button>
+                    
+                    <button class="function-btn" onclick="add2Guest()">
+                        <span class="function-btn-text">+2</span>
+                    </button>
+                    
+                    <button class="function-btn" onclick="add3Guest()">
+                        <span class="function-btn-text">+3</span>
+                    </button>
+                </div>
+                
+                <!--Guest Del Buttons-->
+                <div class="functions">
+                    <button class="function-btn" onclick="del1Guest()">
+                        <span class="function-btn-text">-1</span>
+                    </button>
+                    
+                    <button class="function-btn" onclick="del2Guest()">
+                        <span class="function-btn-text">-2</span>
+                    </button>
+                    
+                    <button class="function-btn" onclick="del3Guest()">
+                        <span class="function-btn-text">-3</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="reset">
+            <button class="function-btn" id="reset" onclick="reset()">NEW GAME</button>
+        </div>
+        
+        <script src="./index.js"></script>
+    </body>
+</html>
