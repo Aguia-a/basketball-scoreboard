@@ -22,7 +22,9 @@ Um placar de basquete feito com HTML, CSS e JavaScript. Fazendo parte do projeto
 ## Imagens
 
 Aparência do Website em uma Tela Larga:
+
 ![Tela do Website Larga](./images/normal-width.png)
 
 Aparência do Website em uma Tela Pequena:
+
 ![Tela do Website Pequena](./images/mobile-width.png)

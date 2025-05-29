@@ -22,7 +22,9 @@ A basketball scoreboard made with HTML, CSS and JavaScript. Being part of the so
 ## Images
 
 Website Appearance in a Big Screen:
+
 ![Tela do Website Larga](./images/normal-width.png)
 
 Website Appearance in a Small Screen:
+
 ![Tela do Website Pequena](./images/mobile-width.png)
